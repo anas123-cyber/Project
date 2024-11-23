@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="weather">
+            <img src="weather-icon.png" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="219816-removebg-preview.png">
+                    <div>
+                        <p class="humidity">64%</p>
+                        <p><i>Humidity</i></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images-removebg-preview.png">
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p><i>Wind Speed</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
